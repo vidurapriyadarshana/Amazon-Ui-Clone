@@ -83,3 +83,52 @@
   align-items: center;
 }
 
+
+.right-section{
+  margin-right: 20px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.returns-button{
+  height: 50px;
+  width: 65px;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box; 
+  border: 1px solid transparent; 
+  transition: border-color 0.3s;
+  font-size: 13px;
+  color: white;
+  font-family: Roboto, Arial;
+}
+
+.returns-button:hover {
+  border-color: white; 
+  border-radius: 2px; 
+}
+
+.cart-button{
+  height: 50px;
+  width: 40px;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  box-sizing: border-box; 
+  border: 1px solid transparent; 
+  transition: border-color 0.3s;
+  font-size: 13px;
+  font-family: Roboto, Arial;
+}
+
+.cart-button:hover {
+  border-color: white; 
+  border-radius: 2px; 
+}
+
+.cart-icon{
+  height: 25px;
+}
+
